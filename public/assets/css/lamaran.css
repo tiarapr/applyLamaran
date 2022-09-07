@@ -1,0 +1,47 @@
+body {
+    background-color: #f0f2f5;
+}
+.lamaran-form {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 25px;
+    margin: 20px;
+}
+.row {
+    margin-bottom: 20px;
+}
+h5 {
+    text-align: center;
+    font-weight: 600;
+    padding: 20px;
+}
+.btn-apply {
+    width: 435px;
+    background-color: salmon;
+    border: none;
+    color: #ffffff;
+}
+input {
+    height: 40px;
+    font-size: 18px !important;
+    color: #f2f2f2;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .col-md-7,
+    p {
+        display: none;
+    }
+    input {
+        font-size: 16px !important;
+    }
+    .login-form {
+        box-shadow: none;
+    }
+}
